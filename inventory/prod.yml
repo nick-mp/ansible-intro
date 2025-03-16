@@ -1,0 +1,14 @@
+---
+  el:
+    hosts:
+      ubuntu:
+        ansible_host: 158.160.18.203
+  deb:
+    hosts:
+      debian:
+        ansible_host: 158.160.22.181
+  local:
+    hosts:
+      localhost:
+        ansible_connection: local
+
